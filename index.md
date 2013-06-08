@@ -1,46 +1,22 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: WNL Reason
+tagline: New GitHub blog
 ---
-{% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+I am a PhD statistician and pain physician at Stanford. My interests are machine learning, omics, item response theory,wellness, and healthcare delivery. 
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+<h2>Some basic info</h2>
+<ul>
+  <li><a href="https://dl.dropbox.com/u/4166373/CV/Ming-Chih-Kao-CV.pdf">Curriculum Vitae</a></li>
+  <li><a href="https://plus.google.com/100952468373748554033/about">Google+</a></li>
+  <li><a href="http://www.linkedin.com/profile/view?id=386626">LinkedIn</a></li>
+</ul>
 
-## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
+<h2>Recent blog posts</h2>
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
 
